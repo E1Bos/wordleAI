@@ -1,8 +1,14 @@
 # wordleAI
 ## An AI trained to solve the wordle daily puzzle.
 
-dict_sorter.py is used to take a list of words and export 5 letters words only <br>
-fiveletterwords.txt is a list of words taken from the file "moby_dick.txt" <br>
-wordle.py is the actual wordle game and can be played in cmd prompt <br>
-<br>
-To run dict_sorter.py and wordle.py, pyenchant is required. `pip install pyenchant`
+## Prerequisites
+`pip install pyenchant` # Used to spell check words
+
+### dict_sorter.py
+Quality of life program used to take any file full of text and export a file with only 5 letter english words.
+
+### fiveletterwords.txt
+A list of 5 letter words taken from the file *moby_dick.txt*
+
+### wordle.py
+The actual programming behind the wordle clone, used to train the AI. Can also be played in terminal
