@@ -4,6 +4,8 @@
 ## Prerequisites
 `pip install pyenchant`
 
+## Various Files
+
 ### dict_sorter.py
 Quality of life program used to take any file full of text and export a file with only 5 letter english words.
 
